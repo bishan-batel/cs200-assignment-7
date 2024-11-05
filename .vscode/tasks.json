@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Demo",
+      "type": "shell",
+      "command": "bash -c \"cmake --build build && ./build/TextureDemo\"",
+      "dependsOn": []
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "bash -c \"cmake --build build && ./build/TextureTest\"",
+      "dependsOn": []
+    }
+  ]
+}
