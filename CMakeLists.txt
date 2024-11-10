@@ -50,7 +50,7 @@ add_executable(TextureRenderTest src/TextureRenderTest.cpp)
 target_link_libraries(TextureRenderTest PUBLIC TextureRender)
 include_directories(TextureRenderTest ${GLEW_INCLUDE_DIRS})
 
-add_executable(LightTest src/LightTest.cpp)
+add_executable(LightTest src/LightTest.cpp src/DPTexturedMesh.cpp)
 target_link_libraries(LightTest PUBLIC Texture OpenGL glm::glm SDL2::SDL2 ${GLEW_LIBRARIES})
 include_directories(LightTest ${GLEW_INCLUDE_DIRS})
 

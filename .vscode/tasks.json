@@ -4,7 +4,7 @@
     {
       "label": "Demo",
       "type": "shell",
-      "command": "bash -c \"cmake --build build && ./build/TextureDemo\"",
+      "command": "bash -c \"cmake --build build && ./build/LightTest\"",
       "dependsOn": []
     },
     {
